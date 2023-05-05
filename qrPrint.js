@@ -4,10 +4,10 @@
 var qrText = new URL(location.href).searchParams.get("qr");
 var qrHead = new URL(location.href).searchParams.get("h");
 var isHideInfo = new URL(location.href).searchParams.get("hide")*1;
-var qrArr = decodeURIComponent(qrText).split("###");
+var qrArr = decodeURIComponent(qrText).split(",");
 
 for (let i = 0; i < qrArr.length; i++) {
-    qrArr[i] = qrArr[i].split("$$$")
+    qrArr[i] = qrArr[i].split("$")
 }
 
 qrArr.sort((a, b)=>{
