@@ -49,6 +49,16 @@ body{
     height: var(--height);
     background-color: white;
 }
+.item p{
+    height: 17mm;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    font-size: 3mm;
+    text-transform: uppercase;
+    padding: 2mm;
+    font-weight: bold;
+}
 .head, .foot{
     height: 3.6mm;
     display: grid;
