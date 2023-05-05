@@ -21,7 +21,7 @@ for (let i = 0; i < qrArr.length; i++) {
         <div class="head">NHA KHOA SV | ${qrHead}</div>
         <div class="tbody">
             <div class="left" id="qr${i}"></div>
-            <div class="right">${e[0].replace("~",",")}</div>
+            <div class="right">${e[0].replaceAll("~",",")}</div>
         </div>
         <div class="foot">Số lg: ${e[1]} (${e[2]}) - ${e[3]}</div>
     </div>`;
