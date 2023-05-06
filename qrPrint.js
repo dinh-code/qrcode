@@ -18,7 +18,7 @@ for (let i = 0; i < qrArr.length; i++) {
     let e = qrArr[i];
     document.body.innerHTML +=
     `<div class="item">
-        <div class="head">NHA KHOA SV | ${qrHead}</div>
+        <div class="head">NHA KHOA SV | ${e[4]}</div>
         <div class="tbody">
             <div class="left" id="qr${i}"></div>
             <div class="right">${e[0].replaceAll("~",",")}</div>
